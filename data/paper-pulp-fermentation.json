@@ -1,33 +1,56 @@
 {
   "items": [
     {
+      "id": "PF-001",
       "code": "PF-001",
       "source": "构树皮",
       "vat": "三号缸",
       "days": 6,
       "owner": "林素",
       "status": "发酵中",
+      "enterAt": "2026-09-20",
+      "exitAt": "2026-09-27",
       "logs": [
         {
-          "at": "2026-06-15",
-          "step": "观察",
-          "note": "温度24.6，气味微酸，纤维开始松散",
+          "at": "2026-09-20",
+          "step": "入缸",
+          "note": "登记入缸三号缸，预计 2026-09-27 退缸",
           "abnormal": false
         },
         {
-          "at": "2026-06-21T03:50:29.658Z",
+          "at": "2026-09-22",
           "step": "观察",
-          "note": "温度25.1，微酸，松散"
+          "note": "温度24.6，气味微酸，纤维开始松散",
+          "abnormal": false
         }
       ],
       "observations": [
         {
-          "at": "2026-06-21T03:50:29.658Z",
+          "at": "2026-09-22",
           "temperature": "25.1",
           "smell": "微酸",
           "fiber": "松散",
           "changedWater": "是",
           "abnormal": false
+        }
+      ]
+    }
+  ],
+  "maintenance": [
+    {
+      "id": "MT-001",
+      "vat": "三号缸",
+      "startAt": "2026-09-28",
+      "endAt": "2026-09-30",
+      "reason": "季度清洗与缸壁除垢",
+      "owner": "老周",
+      "status": "待确认",
+      "released": false,
+      "logs": [
+        {
+          "at": "2026-09-24",
+          "step": "登记",
+          "note": "登记三号缸停用清洗，等待放行确认"
         }
       ]
     }
